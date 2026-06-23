@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="80" viewBox="0 0 500 80">
+  <defs>
+    <linearGradient id="btnBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="btnGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="btnShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#34d399" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="492" height="72" rx="14" fill="url(#btnBg)" stroke="url(#btnGlow)" stroke-width="2" filter="url(#btnShadow)"/>
+  <text x="250" y="50" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Download Latest Release</text>
+</svg>
