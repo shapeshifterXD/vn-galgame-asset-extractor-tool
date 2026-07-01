@@ -122,3 +122,4 @@ MIT — see [`LICENSE`](LICENSE).
 <div align="center">
 <sub>Windows · Game asset tooling · Open Source · vn-galgame-asset-extractor</sub>
 </div>
+‍
